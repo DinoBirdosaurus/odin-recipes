@@ -5,3 +5,5 @@ Personal log:
 - forgot to commit early and often and forgot to include additional files in the git message
 - Self reminder: figure out how to escape the "git commit message section" I kept running into
 - I completely forgot about 'git push'. Don't forget 'git push'
+- Forgot the " again at the end of git commit -m ""
+- Don't forget to save edits before committing
