@@ -7,3 +7,6 @@ Personal log:
 - I completely forgot about 'git push'. Don't forget 'git push'
 - Forgot the " again at the end of git commit -m ""
 - Don't forget to save edits before committing
+- Learned how to use VSC terminal instead of regular terminal
+-Figured out how to exit and edit log config with git config --global core.pager cat and git config --global core.pager less or just press q or z to exit git log
+- Changed git commit message editor on vsc. My commits are slightly better now
