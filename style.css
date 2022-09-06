@@ -1,6 +1,10 @@
 * {
     background-color: bisque;
 }
+button {
+    margin: 0 auto;
+    display: block;
+}
 
 h1 {
     color:darkgreen;
@@ -9,8 +13,23 @@ h1 {
     font-family: Verdana, "Times New Roman", sans-serif;
 }
 
-.recipe {
-    text-align: center;
+p.recipe {
+
     font-family: Verdana, "Times New Roman", sans-serif;
     font-size: 20px;
 }
+
+p.hotsauce {
+    text-align: right;
+    background-color: crimson;
+}
+
+p.pancakes {
+    text-align: left;
+    background-color: aqua;
+}
+
+p.adobo {
+    text-align: center;
+}
+
