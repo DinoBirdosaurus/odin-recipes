@@ -13,23 +13,24 @@ h1 {
     font-family: Verdana, "Times New Roman", sans-serif;
 }
 
-p.recipe {
+.recipe {
 
     font-family: Verdana, "Times New Roman", sans-serif;
     font-size: 20px;
 }
 
-p.hotsauce {
+.hotsauce {
     text-align: right;
     background-color: crimson;
 }
 
-p.pancakes {
+.pancakes {
     text-align: left;
     background-color: aqua;
 }
 
-p.adobo {
+.adobo {
     text-align: center;
+    background-color: brown;
 }
 
