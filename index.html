@@ -6,14 +6,32 @@
         <title>My First Recipes Webpage</title>
         <link rel="stylesheet" href="style.css">
         <body>
-            <h1>Odin Recipes</h1>
-            <div class="recipes">
-                <div class="list hotsauce"><a href="./recipes/hotsauce.html">Hotsauce</a></div>
-                <div class="list pancakes"><a href="./recipes/pancakes.html">Pancakes</a></div>
-                <div class="list adobo"><a href="./recipes/chicken-adobo.html">Chicken Adobo With Chicken Livers</a></div>
+            <header class="header">
+                <h1>Odin Recipes</h1>
+            </header>
+            <main class="main">
+                <div class="recipes">
+                    
+                        <a id="hotsauce" href="./recipes/hotsauce.html">Hotsauce</a>
+                    
+                    
+                        <a id="pancakes" href="./recipes/pancakes.html">Pancakes</a>
+                    
+                    
+                        <a id="adobo" href="./recipes/chicken-adobo.html">Chicken Adobo With Chicken Livers</a>
+                    
                 &nbsp;
-            <button><a href="https://www.youtube.com/channel/UC3rLDTTelywCQIK5R8UKjSg">I'm on Youtube</button></a>
-            </div>
+                </div>
+            </main> 
+            <footer class="footer">
+                <p>
+                    Copyright ©
+                    <script>document.write(new Date().getFullYear())</script>
+                    BirdDinosaur
+                <a href="https://www.youtube.com/channel/UC3rLDTTelywCQIK5R8UKjSg" target="_blank"><img id="youtube-icon" src="youtube-icon.png"/></a>
+                </p>
+            </footer>  
+            
         </body>
     </head>
 </html>
