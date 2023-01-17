@@ -1,0 +1,61 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    background-color: orange;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:tomato;
+    height: 70px;
+    width: 100%;
+    
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: tomato;
+    height: 50px;
+    width: 100%;
+    
+}
+
+#title {
+    text-align: center;
+}
+#image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 20px auto;
+}
+#photo {
+    height: 300px;
+}
+.recipe-desc,
+.ingredients {
+    text-align: center;
+}
+
+.ing-box,
+.proc-box {
+    text-align: center;
+}
+
+.ing-box > ul,
+.procedure-list {
+    display: inline-block;
+}
+
+.ing-box > ul > li {
+    text-align: left;
+}
+
+.proc-box > .procedure-list > li {
+    text-align: left;
+}
